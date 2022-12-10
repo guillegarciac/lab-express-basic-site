@@ -1,0 +1,24 @@
+h1 {
+  font-size: 45px;
+  
+}
+
+body#home {
+  background-color: aquamarine;
+  color: rgb(61, 129, 107);
+} 
+
+body#works {
+  background-color: rgb(95, 196, 163);
+  color: rgb(26, 56, 46);
+} 
+
+body#gallery {
+  background-color: rgb(61, 129, 107);
+  color: white;
+} 
+
+body#about {
+  background-color: rgb(26, 56, 46);
+  color: white;
+} 
