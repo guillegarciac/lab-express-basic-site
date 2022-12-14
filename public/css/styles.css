@@ -96,3 +96,11 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+.card {
+  border: 1px solid rgb(158, 114, 52);
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: rgb(47, 88, 30);
+}

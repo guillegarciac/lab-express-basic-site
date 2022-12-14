@@ -1,0 +1,15 @@
+<body id="gallery">
+  <a id="gallery" href="/">Home</a>
+  <a id="gallery" href="/works">Works</a>
+  <a id="gallery" href="/gallery">Gallery</a>
+  <a id="gallery" href="/about">About</a>
+  <a id="gallery" href="/riders">Riders</a>
+  <h1>Riders</h1>
+  <div class="card">
+  {{#each riders}}
+  {{>card this}}
+  {{else}}
+  <p>No more riders.</p>
+  {{/each}}
+  </div>
+</body>
