@@ -97,10 +97,26 @@ div.desc {
   text-align: center;
 }
 
+.main-card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  text-align: left;
+}
+
 .card {
-  border: 1px solid rgb(158, 114, 52);
-  background-color: white;
+  border: 2px solid #2f581e;
+  background-color: #fcfcfc;
   margin-bottom: 20px;
-  padding: 20px;
-  color: rgb(47, 88, 30);
+  color: #2f581e;
+  padding: 45px;
+  width: 75%;
+}
+
+.imgstyle {
+  width: 150px;
+  height: 150px;
 }

@@ -5,11 +5,11 @@
   <a id="gallery" href="/about">About</a>
   <a id="gallery" href="/riders">Riders</a>
   <h1>Riders</h1>
-  <div class="card">
-  {{#each riders}}
-  {{>card this}}
-  {{else}}
-  <p>No more riders.</p>
-  {{/each}}
+  <div class="main-card-container">
+    {{#each riders}}
+      {{>card this}}
+    {{else}}
+      <p>No more riders.</p>
+    {{/each}}
   </div>
 </body>

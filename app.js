@@ -32,22 +32,26 @@ app.get('/riders', (req, res, next) => {
       {
         name: 'Remco Evenepoel',
         age: 22,
-        country: 'Belgium'
+        country: 'Belgium',
+        image: '/img/remco.jpg'
       },
       {
         name: 'Tadej Pogačar',
         age: 24,
-        country: 'Slovenia'
+        country: 'Slovenia',
+        image: '/img/pogi.jpg'
       },
       {
         name: 'Egan Bernal',
         age: 25,
-        country: 'Colombia'
+        country: 'Colombia',
+        image: '/img/egan.jpg'
       },
       {
         name: 'Enric Mas',
         age: 27,
-        country: 'Spain'
+        country: 'Spain',
+        image: '/img/enric.jpg'
       }
     ]
   }
