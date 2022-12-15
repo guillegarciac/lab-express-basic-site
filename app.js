@@ -26,6 +26,10 @@ app.get('/gallery', (req, res, next) => {
   res.status(200).render('gallery')
 })
 
+app.get('/secondgallery', (req, res, next) => {
+  res.status(200).render('secondgallery')
+})
+
 app.get('/riders', (req, res, next) => {
   const riders = {
     riders: [

@@ -27,26 +27,23 @@ a.works {
   color: rgb(26, 56, 46);
 }
 
+body {
+  background: linear-gradient(135deg, #295fd5, #9d8ce0);;
+  color: white;
+  height: 100vh;
+  margin: 0;
+} 
+
 body#home {
-  background-color: aquamarine;
-  color: rgb(61, 129, 107);
   font-size: 50px;
-} 
+}
 
-body#works {
-  background-color: rgb(95, 196, 163);
-  color: rgb(26, 56, 46);
-} 
-
-body#gallery {
-  background-color: rgb(61, 129, 107);
-  color: white;
-} 
-
-body#about {
-  background-color: rgb(26, 56, 46);
-  color: white;
-} 
+body#secondgallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
 
 .title-container {
   margin-left: 300px;
@@ -119,4 +116,23 @@ div.desc {
 .imgstyle {
   width: 150px;
   height: 150px;
+}
+
+/* Testing Gallery Js */
+
+.group {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item {
+  width: 15vw;
+  height: 75vh;
+  background-position: center;
+  background-size: 75vh;
+  margin: 1vw;
+  border-radius: 3vw;
+  display: inline-block;
+  cursor: pointer;
 }
